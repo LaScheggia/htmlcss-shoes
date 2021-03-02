@@ -16,28 +16,32 @@ nav{
   right: 0;
   top: 0;
   z-index: 10;
+  padding-top: 25px;
 }
 
 ul li {
   display: inline-block;
 }
 
-a{
-  vertical-align: middle;
-  list-style: none;
-  text-decoration: none;
-  text-align: center;
-}
-
 .circle{
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
   background-color: white;
-
+  text-align: center;
+  padding-top: 10px;
+  font-size: 25px;
+  vertical-align: middle;
 }
 
-ul:hover{
+a{
+  list-style: none;
+  text-decoration: none;
+  padding-top: 30px;
+}
+
+
+.circle:hover{
   box-shadow: 2px 2px 2px;
   border-radius: 50%;
   cursor: pointer;
