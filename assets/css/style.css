@@ -10,7 +10,32 @@ html{
 }
 
 nav{
+  height: 50px;
   position: fixed;
+  text-align: left;
+  right: 0;
+  top: 0;
+  z-index: 10;
+}
+
+li ul{
+  display: inline-block;
+}
+
+a{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: white;
+  vertical-align: middle;
+  list-style: none;
+  text-decoration: none;
+}
+
+ul:hover{
+  box-shadow: 2px 2px 2px;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 .shoe{
