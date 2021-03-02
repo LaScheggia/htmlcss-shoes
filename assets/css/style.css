@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+nav{
+  position: fixed;
+}
+
+.shoe{
+  height: 100vh;
+  width: 100%;
+}
+
+
+.box1{
+  margin: 0 auto;
+  width: 65%;
+  margin: auto;
+  max-width: 800px;
+}
+
+.txt{
+  font-size: 50px;
+  text-align: center;
+}
