@@ -18,18 +18,23 @@ nav{
   z-index: 10;
 }
 
-li ul{
+ul li {
   display: inline-block;
 }
 
 a{
+  vertical-align: middle;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+.circle{
   height: 100px;
   width: 100px;
   border-radius: 50%;
   background-color: white;
-  vertical-align: middle;
-  list-style: none;
-  text-decoration: none;
+
 }
 
 ul:hover{
@@ -61,13 +66,16 @@ transform: translate(-50%, -50%);
 }
 
 #shoe1{
-  background-color: lightblue;
+  background-color: rgb(244, 67, 54);
+  color: rgb(255, 235, 59);
 }
 
 #shoe2{
-  background-color: lightcoral;
+  background-color: rgb(76, 175, 80);
+  color: rgb(255, 235, 59);
 }
 
 #shoe3{
-  background-color: lightpink;
+  background-color: rgb(255, 235, 59);
+  color: rgb(76, 175, 80);
 }
